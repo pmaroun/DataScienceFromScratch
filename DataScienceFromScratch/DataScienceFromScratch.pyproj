@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8db43881-ea66-4bfa-9a26-79e8e71850c8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CrashCourseInPython.py</StartupFile>
+    <StartupFile>linear algebra.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -53,6 +53,9 @@
     <Compile Include="data-science-from-scratch-master\code-python3\__init__.py" />
     <Compile Include="CrashCourseInPython.py" />
     <Compile Include="introduction.py" />
+    <Compile Include="linear algebra.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="VisualizingData.py">
       <SubType>Code</SubType>
     </Compile>
