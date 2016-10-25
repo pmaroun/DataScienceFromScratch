@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8db43881-ea66-4bfa-9a26-79e8e71850c8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DataScienceFromScratch.py</StartupFile>
+    <StartupFile>CrashCourseInPython.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,14 +22,59 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DataScienceFromScratch.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\charts.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\clustering.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\databases.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\decision_trees.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\egrep.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\getting_data.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\gradient_descent.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\hypothesis_and_inference.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\introduction.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\linear_algebra.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\line_count.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\logistic_regression.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\machine_learning.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\mapreduce.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\most_common_words.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\multiple_regression.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\naive_bayes.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\natural_language_processing.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\nearest_neighbors.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\network_analysis.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\neural_networks.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\plot_state_borders.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\probability.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\recommender_systems.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\simple_linear_regression.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\stats.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\visualizing_data.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\working_with_data.py" />
+    <Compile Include="data-science-from-scratch-master\code-python3\__init__.py" />
+    <Compile Include="CrashCourseInPython.py" />
     <Compile Include="introduction.py" />
+    <Compile Include="VisualizingData.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data-science-from-scratch-master\code-python3\colon_delimited_stock_prices.txt" />
+    <Content Include="data-science-from-scratch-master\code-python3\comma_delimited_stock_prices.csv" />
+    <Content Include="data-science-from-scratch-master\code-python3\comma_delimited_stock_prices.txt" />
+    <Content Include="data-science-from-scratch-master\code-python3\README.md" />
+    <Content Include="data-science-from-scratch-master\code-python3\states.txt" />
+    <Content Include="data-science-from-scratch-master\code-python3\stocks.txt" />
+    <Content Include="data-science-from-scratch-master\code-python3\tab_delimited_stock_prices.txt" />
+    <Content Include="data-science-from-scratch-master\LICENSE" />
+    <Content Include="data-science-from-scratch-master\links.md" />
+    <Content Include="data-science-from-scratch-master\README.md" />
     <Content Include="data\knn.ipynb" />
     <Content Include="knn.html" />
+    <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="data-science-from-scratch-master\" />
+    <Folder Include="data-science-from-scratch-master\code-python3\" />
     <Folder Include="data\" />
   </ItemGroup>
   <PropertyGroup>

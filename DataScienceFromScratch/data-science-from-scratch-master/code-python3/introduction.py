@@ -1,3 +1,5 @@
+# at this stage in the book we haven't actually installed matplotlib,
+# comment this out if you need to
 from matplotlib import pyplot as plt
 
 ##########################
