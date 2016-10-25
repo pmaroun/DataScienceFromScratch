@@ -101,5 +101,39 @@ print(distance([1,2], [3,4]))
 
 print("linear algebra -- matrices")
 
+print("get matrix shape")
+def shape(A):
+    num_rows = len(A)
+    num_cols = len(A[0])
+    return num_rows, num_cols
+print(shape([[1,2,3], [4,5,6]]))
+
+print("get matrix vector")
+def get_row(A, i):
+    return A[i]
+
+def get_col(A, j):
+    return [A_i[j] 
+        for A_i in A]
+
+print (get_row([[1,2,3], [4,5,6]], 1))
+print (get_col([[1,2,3], [4,5,6]], 1))
+
+print("make matrix")
+def make_matrix(num_rows, num_cols, entry_fn):
+    """returns an num_rows, num_cols matrix"""
+    """whos (r,c) entries are entry_fn(r,c)"""
+    return [[entry_fn(r, c)
+            for r in range(num_rows)]
+            for c in range(num_cols)]
+            
+def is_diagonal(r, c):
+    """1's on the diagonal 0's everywhere else"""
+    return 1 if r==c else 0
+
+print (make_matrix(5, 5, is_diagonal))
+
+
+
 
 
