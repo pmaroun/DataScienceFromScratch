@@ -25,6 +25,13 @@
     <Compile Include="DataScienceFromScratch.py" />
     <Compile Include="introduction.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\knn.ipynb" />
+    <Content Include="knn.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
