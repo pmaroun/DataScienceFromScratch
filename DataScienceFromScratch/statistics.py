@@ -69,7 +69,10 @@ def mode(x):
 
 print(mode(num_friends))
 
+####################
 print ("dispertion")
+####################
+
 print("range")
 def data_range(x):
     return max(x) - min(x)
@@ -87,7 +90,8 @@ def variance(x):
     """assumes x has at least two elements"""
     n = len(x)
     deviations = de_mean(x)
-    return sum_of_squares(deviations) / (n-1)
+    return sum_of_squares(deviations) / (n-1) ## n-1 is for un unbiased estimation of standard deviation (https://en.wikipedia.org/wiki/Unbiased_estimation_of_standard_deviation)
+    ### Dividing by one less gives you an unbiased estimate (for better estimating population variance)
 print(variance(num_friends)) # 81.54
 
 print ("standard deviation")
@@ -107,3 +111,22 @@ def covariance(x, y):
     n = len(x)
     return dot(de_mean(x), de_mean(y)) / (n-1)
 print (covariance(num_friends, daily_minutes))# 22.43
+
+print ("correlation")
+def correlation(x,y):
+    stdev_x = standard_deviation(x)
+    stdev_y = standard_deviation(y)
+    if stdev_x > 0 and stdev_y > 0:
+        return covariance(x, y) / stdev_x / stdev_y
+    else:
+        return 0
+print(correlation(num_friends, daily_minutes)) #.25 
+
+print ("correlation without outlier")
+outlier = num_friends.index(100)
+num_friends_good = [x for i,x in enumerate(num_friends)
+                    if i != outlier]
+daily_minutes_good = [x for i,x in enumerate(daily_minutes)
+                      if i!= outlier]
+print (correlation(num_friends_good, daily_minutes_good)) #.57 much stronger correlation
+
