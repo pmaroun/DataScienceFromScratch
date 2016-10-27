@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8db43881-ea66-4bfa-9a26-79e8e71850c8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>probability.py</StartupFile>
+    <StartupFile>HypothesisAndInference.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -52,6 +52,9 @@
     <Compile Include="data-science-from-scratch-master\code_python3\working_with_data.py" />
     <Compile Include="data-science-from-scratch-master\code_python3\__init__.py" />
     <Compile Include="CrashCourseInPython.py" />
+    <Compile Include="HypothesisAndInference.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="introduction.py" />
     <Compile Include="linear_algebra.py">
       <SubType>Code</SubType>

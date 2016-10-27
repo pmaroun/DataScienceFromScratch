@@ -57,8 +57,10 @@ plt.title("various normal pdfs")
 plt.close()
 
 print("cumulative distributions")
+##A cumulative frequency distribution is a plot of the number of observations falling in or below an interval.  
 def normal_cdf(x, mu=0, sigma=1):
     return (1 + math.erf((x-mu) / math.sqrt(2) / sigma)) /2
+
 plt.plot(xs, [normal_cdf(x, mu=0, sigma=1) for x in xs], "-", label="mu=0, sigma=1")
 plt.plot(xs, [normal_cdf(x, mu=0, sigma=2) for x in xs], "-", label="mu=0, sigma=2")
 plt.plot(xs, [normal_cdf(x, mu=0, sigma=.5) for x in xs], "-", label="mu=0, sigma=.5")
@@ -123,6 +125,6 @@ def make_hist(p, n, num_points):
     ##plt.title("binomial distribution vs normal approximation")
     plt.show()
 
-make_hist(0.75, 100, 10000)
+##make_hist(0.75, 100, 10000)
 
 
