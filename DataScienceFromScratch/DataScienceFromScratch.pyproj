@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8db43881-ea66-4bfa-9a26-79e8e71850c8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>statistics.py</StartupFile>
+    <StartupFile>probability.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -54,6 +54,9 @@
     <Compile Include="CrashCourseInPython.py" />
     <Compile Include="introduction.py" />
     <Compile Include="linear_algebra.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="probability.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="statistics.py">
