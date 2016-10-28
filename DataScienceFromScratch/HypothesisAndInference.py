@@ -151,3 +151,4 @@ z = a_b_test_statistics(1000, 200, 1000, 160) #-2.94
 print(two_sided_p_value(z))  #.003
 
 print ("bayesian inference")
+
